@@ -1,4 +1,4 @@
-FROM archlinux/base:latest
+FROM archlinux:latest
 
 # Common tools
 RUN pacman --noconfirm -Syu && \
